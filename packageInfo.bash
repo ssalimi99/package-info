@@ -26,7 +26,7 @@ fi
 
 # Create report title
 # (echo with -e option allows newline \n character to be used)
-reportPath="/home/ssalimi19/bin"
+reportPath="/home/YOURUSERNAME/bin"
 echo -e "SOFTWARE PACKAGE INFORMATION REPORT" > ${reportPath}/package-info.txt
 echo -e "Date: $(date +'%A %B %d, %Y (%H:%M:%p)')\n\n " >> ${reportPath}/package-info.txt
 
